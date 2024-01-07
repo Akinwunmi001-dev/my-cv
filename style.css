@@ -1,0 +1,340 @@
+body{
+    background-color: black;
+}
+.app{
+    background-color: rgb(226, 217, 217);
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+.profbox{
+    width: 300px;
+    height: 650px;
+    border-radius: 9px;
+    background-color: rgb(15, 15, 20);
+    margin-top: 15px;
+    overflow: auto;
+    position: unset;
+    align-self: flex-start;
+    margin-left: 10px;
+    
+   
+}
+.profbox .img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-bottom-right-radius: 30px;
+    margin-left: 74px;
+}
+
+.profbox h1{
+    color: goldenrod;
+}
+.name h2{
+    color: rgb(192, 190, 190) ;
+    font-size: 15px;
+    margin-left: 70px;
+
+  
+}
+.name p{
+    color: rgb(192, 190, 190) ;
+    margin-top: -10px;
+    font-size: 12px;
+    margin-left:54px;
+}
+.infobox{
+    background-color: black;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+/*
+@keyframes spin{
+    0%{transform:rotate(0deg;)}
+    100%{transform: rotate(360deg)}
+}
+*/
+.self{
+    border-bottom:  1px solid grey;
+    width: 240px;
+    margin-left: 10px;
+}
+.nation, .city, .age{
+    display: flex;
+    flex-direction: row;
+
+}
+.city, .age{
+    margin-top: -23px;
+}
+.nation h1, .city h1, .age h1{
+    color: white;
+    font-size: 15px;
+    height: 15px;
+    width: 80px;
+}
+.nation p, .city p, .age p{
+    color: rgb(121, 120, 120);
+    font-size: 13px;
+    margin-left: 130px;
+}
+
+/* language                                             css*/
+.languages{
+    display:flex;
+    flex-direction: row;
+    border-bottom:  1px solid grey;
+    width: 240px;
+    margin-left: 10px;
+}
+.eng p, .yor p, .frn p{
+    color: white;
+    font-size: 13px;
+}
+.yor, .frn{
+    margin-left: 37px;
+
+}
+.circle1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid goldenrod;
+    animation: spin 2s linear infinite;
+}
+.circle1 p{
+    color: rgb(141, 139, 139);
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* cirle 2                                             css*/
+
+.circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid goldenrod;
+    border-top: 1px solid black;
+    animation: spin 2s linear infinite;
+}
+.circle2 p{
+    color: rgb(141, 139, 139);
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* cirle 3                                            css*/
+
+.circle3{
+    width: 35px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid goldenrod;
+    border-left: 15px solid black;
+    animation: spin 2s linear infinite;
+}
+.circle3 p{
+    color: rgb(141, 139, 139);
+    font-size: 15px;
+    margin-left: -10px;
+}
+
+/* cirle 3                                            css*/
+.lbox{
+    margin-top: 16px;
+}
+.hrange{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+.hrange h1{
+    color: white;
+    font-size: 15px;
+    width: 70px;
+}
+.hrange p{
+    color: grey;
+    font-size: 13px;
+    margin-left: 140px;
+}
+.range1{
+    margin-left: 5px;
+    margin-top: -14px;
+    width: 20px;
+    height: 3px;
+    background-color: grey;
+    border-left: 220px solid goldenrod;
+}
+.range2{
+    margin-left: 5px;
+    margin-top: -14px;
+    width: 20px;
+    height: 3px;
+    background-color: grey;
+    border-left: 220px solid goldenrod;
+}
+.range3{
+    margin-left: 5px;
+    margin-top: -14px;
+    width: 90px;
+    height: 3px;
+    background-color: grey;
+    border-left: 150px solid goldenrod;
+}
+.range4{
+    margin-left: 5px;
+    margin-top: -14px;
+    width: 135px;
+    height: 3px;
+    background-color: grey;
+    border-left: 100px solid goldenrod;
+}
+.range5{
+    margin-left: 5px;
+    margin-top: -14px;
+    width: 108px;
+    height: 3px;
+    background-color: grey;
+    border-left: 130px solid goldenrod;
+}
+.range6{
+    margin-left: 5px;
+    margin-top: -14px;
+    width: 118px;
+    height: 3px;
+    background-color: grey;
+    border-left: 120px solid goldenrod;
+}
+.range7{
+    margin-left: 5px;
+    margin-top: -14px;
+    width: 231px;
+    height: 3px;
+    background-color: grey;
+    border-left: 5px solid goldenrod;
+}
+
+
+
+/* m  a  i  n b  o d y                                           css*/
+/*----------------to design the scroll--------*/
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-track{
+    border: 1px solid rgb(155, 152, 152);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background:rgb(205, 224, 240);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: goldenrod;
+}
+
+.main{
+    margin-left: 30px;
+   height: 670px;
+   overflow-y: scroll;
+}
+#sub p{
+    color: red;
+    font-size: 100px;
+    background-color: white;
+    display: none;
+}
+
+.nav{
+    margin-left: 720px;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav ul li{
+    color:goldenrod;
+    font-size: 20px;
+    margin-left: 20px;
+    list-style: none;
+}
+.board{
+    border: 2px solid white;
+    height: 300px;
+    width: fit;
+}
+
+.workline{
+    width: fit;
+    height:50px ;
+        display: flex;
+    flex-direction: row;
+}
+.wsbox{
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+}
+.wsbox h2{
+    color:goldenrod;
+    margin: 10px;
+    
+}
+.wsbox p{
+    color: grey;
+    margin-left: 10px;
+    font-size: 13px;
+}
+/* my service box                 */
+.ms{
+    color: white;
+    width: 100px;
+    font-size: 20px;
+
+}
+.msbbox{
+    display: flex;
+    flex-direction: row;
+}
+.msb{
+    width: 310px;
+    height: 130px;
+    margin-left:20px ;
+    background-color: rgb(15, 15, 20);
+
+    border-radius: 5px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.msb:hover{
+    height: auto;
+    transform: translateX(20px) translateY(-20px);
+    box-shadow: 3px 1px 3px 1px  grey;
+    background-color: rgba(10, 10, 10, 0.945);
+
+}
+.msb h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 37px;
+    
+}
+.msb p{
+    color: grey;
+    font-size: 12px;
+}
+.msb h2{
+    margin-top: -20px;
+}
+
+.msb h2 a{
+    color:goldenrod;
+    font-size: 15px;
+    text-decoration: none;
+   
+}
